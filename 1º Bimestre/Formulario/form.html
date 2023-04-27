@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="">
+    <fieldset>
+      <legend>Questionário</legend>
+      <fieldset>
+        <legend>Cadastro</legend>
+        <label for="e-mail">E-mail:</label>
+        <input 
+        type="email"
+        id="e-mail"
+        name="E-mail"
+        />
+        <br><br>
+        <label for="senha">Senha:</label>
+        <input 
+        type="password"
+        id="senha"
+        name="Senha"
+        />
+      </fieldset>
+      <fieldset>
+        <legend>Dados Pessoais</legend>
+        <label for="nome">Nome:</label>
+        <input 
+        type="text"
+        id="nome"
+        name="Nome"
+        />
+        <br><br>
+        <label for="idade">Idade:</label>
+        <input 
+        type="number"
+        id="idade"
+        name="Idade"
+        />
+        <br><br>
+        <label for="telefone">Telefone:</label>
+        <input 
+        type="tel"
+        id="telefone"
+        name="Telefone"
+        />
+        <br><br>
+        <label for="data-de-nascimento">Data de Nascimento:</label>
+        <input 
+        type="date"
+        id="data-de-nascimento"
+        name="Data-de-Nascimento"
+        />
+        <br><br>
+        <label for="genero">Gênero:</label>
+        <input 
+        type="radio"
+        id="genero"
+        name="Genero"
+        />Masculino
+        <input 
+        type="radio"
+        id="genero"
+        name="Genero"
+        />Feminino
+        <input 
+        type="radio"
+        id="genero"
+        name="Genero" 
+        />Outros
+        <input 
+        type="radio"
+        id="genero"
+        name="Genero"
+        />Prefiro não responder
+
+      </fieldset>
+      <fieldset>
+        <legend>Preferências:</legend>
+        <label for="marca">Marca de celular que você usa:</label>
+        <select name="Marca-celular" id="marca">
+          <option value="Apple">Apple</option>
+          <option value="Motorola">Motorola</option>
+          <option value="Samsung">Samsung</option>
+          <option value="Xiaomi">Xiaomi</option>
+          <option value="Nokia">Nokia</option>
+        </select>
+        <br><br>
+        <label for="navegador">Escolha um navegador que você usa:</label>
+        <input 
+        type="text"
+        id="navegador"
+        name="Navegador"
+        list="navegadores"
+        />
+        <datalist id="navegadores">
+          <option value="Firefox">Firefox</option>
+          <option value="Google-chrome">Google Chrome</option>
+          <option value="Microsoft-edge">Microsoft Edge</option>
+          <option value="Opera-gx">Opera Gx</option>
+          <option value="Safari">Safari</option>
+        </datalist>
+        <br><br>
+        <label for="musica">Escolha os ritmos musicais que você escuta:</label>
+        <input type="checkbox" name="Rock" id="rock">Rock
+        <input type="checkbox" name="Pop" id="pop">Pop
+        <input type="checkbox" name="Funk" id="funk">Funk
+        <input type="checkbox" name="MPB" id="mpb">MPB
+        <input type="checkbox" name="Sertanejo" id="sertanejo">Sertanejo
+      </fieldset>
+      <fieldset>
+        <legend>Comentário:</legend>
+        <textarea name="Comentarios" id="comentarios" cols="75" rows="7" placeholder="Escreva um comentário!"></textarea>
+      </fieldset>
+      <button type="reset">Resetar</button>
+      <button type="submit">Enviar</button>
+
+    </fieldset> 
+
+
+
+
+  </form>
+  
+</body>
+</html>
